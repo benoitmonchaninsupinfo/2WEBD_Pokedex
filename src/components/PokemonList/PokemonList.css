@@ -1,0 +1,36 @@
+.PokemonList {
+  font-size: 1.5em;
+}
+
+.PokemonList .list {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.PokemonList .list .pokemon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.PokemonList .list .pokemon img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.PokemonList .list .pokemon a {
+  margin-top: .5em;
+  font-weight: 500;
+}
+
+.PokemonList .pagination {
+  gap: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0;
+}

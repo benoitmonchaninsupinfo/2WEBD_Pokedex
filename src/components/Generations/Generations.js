@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import PokemonService from "../pokemons.service";
+import PokemonService from "../../pokemons.service";
+
+import './Generations.css';
 
 export default function Generations() {
   const [generations, setGenerations] = useState([]);

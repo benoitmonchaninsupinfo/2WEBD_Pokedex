@@ -1,0 +1,49 @@
+.Pokemon {
+  display: flex;
+  flex-direction: column;
+}
+
+.Pokemon img {
+  max-width: 300px;
+  align-self: center;
+}
+
+.Pokemon .types {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.Pokemon .types .type {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1.25em;
+  padding: 0.5em;
+  border: 2px solid var(--dark-blue);
+  background: var(--light-blue);
+}
+
+.Pokemon .types .type img {
+  max-width: 20px;
+}
+
+.Pokemon .stats {
+  text-align: center;
+}
+
+.Pokemon .stats h3 {
+  margin: 1em 0;
+}
+
+.Pokemon .stats table {
+  font-size: 1.25em;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.Pokemon .stats table th,
+.Pokemon .stats table td {
+  padding: .5em;
+  border: 1px solid var(--dark-blue);
+}

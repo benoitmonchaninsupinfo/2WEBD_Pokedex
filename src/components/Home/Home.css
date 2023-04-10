@@ -1,0 +1,14 @@
+.Home .Pokemon {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.Home .Pokemon img {
+  max-width: 400px;
+}
+
+.Home .Pokemon a {
+  display: block;
+  text-align: center;
+}
+
